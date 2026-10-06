@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  body {
+    background-color: #08080a;
+    color: #f4f4f5;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    user-select: none;
+  }
+
+  /* Monospace font class for auth labels exactly matching screenshot */
+  .font-mono-tech {
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Neon Glow Button & Elements */
+.neon-btn-green {
+  background-color: #00ff66;
+  color: #000000;
+  box-shadow: 0 0 25px rgba(0, 255, 102, 0.4);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.neon-btn-green:hover {
+  background-color: #1aff75;
+  box-shadow: 0 0 35px rgba(0, 255, 102, 0.6);
+  transform: translateY(-1px);
+}
+.neon-btn-green:active {
+  transform: translateY(0);
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.4);
+}
+
+/* Pulse animation for voice recording and call */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.3;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.8;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s infinite ease-in-out;
+}
+

@@ -1,0 +1,11 @@
+{
+  "name": "Khami Studio Messenger",
+  "description": "WhatsApp tipli real vaxtlı təhlükəsiz mesajlaşma, səsli və video zəng, səsli mesajlar və admin paneli tətbiqi.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

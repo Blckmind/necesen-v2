@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <!-- Concentric Upright Square and 45-degree Rotated Square forming 8-Pointed Star Logo -->
+  <rect 
+    x="43.43" 
+    y="43.43" 
+    width="113.14" 
+    height="113.14" 
+    fill="none" 
+    stroke="#ffffff" 
+    stroke-width="5.5" 
+    stroke-linejoin="miter" 
+    stroke-miterlimit="10"
+  />
+  <polygon 
+    points="100,20 180,100 100,180 20,100" 
+    fill="none" 
+    stroke="#ffffff" 
+    stroke-width="5.5" 
+    stroke-linejoin="miter" 
+    stroke-miterlimit="10"
+  />
+</svg>

@@ -1,0 +1,102 @@
+{
+  "users": {
+    "khabib": {
+      "id": "user_khabib",
+      "username": "khabib",
+      "passwordHash": "200911",
+      "isAdmin": true,
+      "isBlocked": false,
+      "createdAt": 1789738581917,
+      "lastSeen": 1791230679575,
+      "avatar": "",
+      "statusMessage": "Khami tətbiqindən istifadə edirəm"
+    },
+    "isak": {
+      "id": "user_1791014796044_39wmd",
+      "username": "isak",
+      "passwordHash": "1111",
+      "isAdmin": false,
+      "isBlocked": false,
+      "createdAt": 1791014796044,
+      "lastSeen": 1791014798611,
+      "avatar": "",
+      "statusMessage": "Khami tətbiqindən istifadə edirəm"
+    }
+  },
+  "messages": [
+    {
+      "id": "msg_1791014812399_xpuhc0",
+      "sender": "isak",
+      "recipient": "khabib",
+      "type": "text",
+      "content": "salam khabib emi necesi",
+      "timestamp": 1791014812399,
+      "status": "read"
+    },
+    {
+      "id": "msg_1791014814073_997upr",
+      "sender": "isak",
+      "recipient": "khabib",
+      "type": "text",
+      "content": "sizi gordum",
+      "timestamp": 1791014814073,
+      "status": "read"
+    },
+    {
+      "id": "msg_1791014814574_qafjt9",
+      "sender": "isak",
+      "recipient": "khabib",
+      "type": "text",
+      "content": "asjdsad",
+      "timestamp": 1791014814574,
+      "status": "read"
+    },
+    {
+      "id": "msg_1791014815246_t8csyf",
+      "sender": "isak",
+      "recipient": "khabib",
+      "type": "text",
+      "content": "asdjasjdjas",
+      "timestamp": 1791014815246,
+      "status": "read"
+    },
+    {
+      "id": "msg_1791014815756_0twt9x",
+      "sender": "isak",
+      "recipient": "khabib",
+      "type": "text",
+      "content": "djajdajsd",
+      "timestamp": 1791014815756,
+      "status": "read"
+    },
+    {
+      "id": "msg_1791014816156_pcl462",
+      "sender": "isak",
+      "recipient": "khabib",
+      "type": "text",
+      "content": "ajdads",
+      "timestamp": 1791014816156,
+      "status": "read"
+    },
+    {
+      "id": "msg_1791014817327_g5o4xw",
+      "sender": "isak",
+      "recipient": "khabib",
+      "type": "text",
+      "content": "asdajsdajsjjs",
+      "timestamp": 1791014817327,
+      "status": "read"
+    },
+    {
+      "id": "msg_1791014817830_kdvxnj",
+      "sender": "isak",
+      "recipient": "khabib",
+      "type": "text",
+      "content": "d",
+      "timestamp": 1791014817830,
+      "status": "read"
+    }
+  ],
+  "calls": [],
+  "groups": {}
+}
